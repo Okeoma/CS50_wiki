@@ -1,0 +1,25 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    
+    <h1>{{ header }}</h1> 
+	
+    {% if message %}
+	<div class="alert alert-danger" role="alert">
+        <div><a href="{% url 'index' %}">{{ message }}</a></div>
+	</div>
+    {% endif %}
+	
+    <ul>
+        {% for entry in entries %}
+            <li><a href="{% url 'entry' entry %}">{{ entry|capfirst }}</a></li>
+        {% endfor %}
+    </ul>
+	
+	
+
+{% endblock %}

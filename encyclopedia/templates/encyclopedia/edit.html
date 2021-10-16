@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}Edit Entry{% endblock %}
+
+{% block body %}
+    <h1>Edit entry with topic "{{ title|capfirst }}"</h1>
+    <form action="{% url 'edit' title %}" method="POST">
+        {% csrf_token %}
+        {{ edit_content.content.label_tag }}
+        <code>{{ edit_content.content }}</code>
+        {{ edit_content.captcha.label_tag }}
+        {{ edit_content.captcha }}
+        <button type="submit" class="btn btn-primary">Save Entry</button>
+    </form>
+{% endblock %}
