@@ -35,7 +35,7 @@ The view should get the content of the encyclopedia entry by calling the appropr
 
 :computer: &nbsp; **View Course [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)**
 
-:arrow_forward: &nbsp; **View Live Demo [here](https://youtu.be/CtuUdZtPxik)**
+:arrow_forward: &nbsp; **View Live Demo [here](https://youtu.be/bIYuv0BBQUo)**
 
 &nbsp;
 
