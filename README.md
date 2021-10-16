@@ -39,14 +39,3 @@ The view should get the content of the encyclopedia entry by calling the appropr
 
 &nbsp;
 
-### Contribute
-
-Contributions are always welcome! Please create a PR to contribute.
-
-### :pencil: &nbsp; License
-
-This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
-
-### :man_astronaut: &nbsp; Show your support
-
-Give a ⭐️ if this project helped you!
