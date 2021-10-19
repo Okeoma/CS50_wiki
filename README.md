@@ -37,5 +37,5 @@ The view should get the content of the encyclopedia entry by calling the appropr
 
 :arrow_forward: &nbsp; **View Live Demo [here](https://youtu.be/bIYuv0BBQUo)**
 
-&nbsp;
+:spider_web: &nbsp; **View Demo Website [here](https://wikidynamics.azurewebsites.net/)**
 
