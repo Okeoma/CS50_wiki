@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'wikidynamics'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_25D2301BA98444A6A9E4F284A7306D3F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B2159FF8C2D40229EB596A228959C3B }}
